@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booleans</title>
+  </head>
+  <body>
+    <script>
+      true 
+      false
+      console.log(3 > 5 - 5);
+
+      console.log(5 === '5.00'); //converts it to a number, true
+      // if statement; (condition); {branch}; else if/ else statement
+      // const - variable: string or intege r
+      
+
+      if(false) {
+        console.log('hello');
+      } else {
+        console.log('else');
+      }
+
+
+      const age = 15;
+
+      if (age >= 16) {
+        console.log('u can drive');
+        console.log('Congrats');
+      } else if(15 >= 14) {
+        console.log('almost there');
+      } else {
+        console.log('u cant drive');
+      }
+
+      console.log(true && false); //AND operator
+      console.log(0.2 >= 0 && 0.2 < 1 / 3)
+      console.log(!true); //NOT operator
+      console.log(true || false) // OR operator
+      
+      //Falsy and truthy values
+      //its shortcut 
+      if (0) {
+        console.log('truthy');
+      }
+
+      const cartQuantity = 5;
+
+      if (cartQuantity) {
+        console.log('cart has products');
+      }
+
+      console.log(null)
+
+      //Ternary operator - shortcuts for loops
+      // ? as an if and : else
+      const result = 0 ? 'truthy' : 'falsy'
+      console.log('truthy')
+      //and && operator - short circuit evaluation
+      //called guard operator
+      false && console.log('hello');
+
+      const message = 5 && 'hello';
+      console.log(message);
+
+      //default OR operator || true || value2
+      const currency = 'EUR' || 'USD';
+      console.log(currnency)
+
+      /* 1 Boolean values(t or false)
+      if statenets
+      3 comparihison */
+    </script>
+  </body>
+</html>
